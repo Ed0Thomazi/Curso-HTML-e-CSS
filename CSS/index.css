@@ -1,0 +1,73 @@
+header {
+  display: flex; /* para ficarem na mesma linha */
+  justify-content: space-between; /*Para os itens ficarem na estremidades*/
+  background-color: #7c5e99;
+  border-bottom: 10px solid black;
+  padding: 10px 20px;
+}
+
+nav {
+  text-align: right;
+}
+
+a {
+  display: inline-flex;
+  align-items: center;
+  text-justify: auto;
+  color: white;
+  size: 20px;
+  font-family: "Fira Code", Arial, Helvetica, sans-serif;
+  font-weight: 500;
+  text-decoration: none;
+  margin-right: 30px;
+}
+
+a::before {
+  content: "";
+  background: #f25a70;
+  height: 10px;
+  width: 10px;
+  margin-right: 10px;
+}
+
+#buttonDCV {
+  display: inline-block;
+  background: #f25a70;
+  box-shadow: 5px 5px 0 black;
+  padding: 18px 20px;
+  height: 30px;
+  line-height: 30px;
+  transition: transform 100ms linear;
+}
+
+#buttonDCV:hover {
+  background: rgb(114, 177, 235);
+  transform: scale(0.9);
+}
+
+.sectionWelcome {
+  height: 797px;
+  width: 955px;
+}
+
+.sectionSkill {
+  height: 730px;
+  width: 1440px;
+  background-color: rgb(68, 27, 134);
+}
+
+.sectionProject {
+  height: 520px;
+  width: 1440px;
+  background-color: green;
+}
+
+.sectionAbout {
+  height: 783px;
+  width: 1440px;
+  background-color: rgb(174, 233, 65);
+}
+
+.sectionContact {
+  background: black;
+}
